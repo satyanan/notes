@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "0fbda07b2d740cdb",
+    "type": "split",
+    "children": [
+      {
+        "id": "65405e0860f42c18",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Interviewing/C++/Index.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "c843021a95f6f9ce",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Interviewing/C++/Index.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "579c43105ac249e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f398722c6d35604",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8666ed3e48a3c144",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "67d58f25848f1c75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7951ca02990d451c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd10cf72fe95b4d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c039783356254cf6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Interviewing/C++/Index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "c843021a95f6f9ce",
+  "lastOpenFiles": [
+    "Interviewing/C++/Index.md",
+    "Interviewing/Algorithms/Kruskal's MST.md",
+    "Interviewing/Algorithms/LPS - longest prefix suffix.md",
+    "Interviewing/Algorithms/Union-Find.md",
+    "Interviewing/C++/Overview.md",
+    "Interviewing/Algorithms/Index.md",
+    "Overview.md",
+    "README.md",
+    "Untitled.md"
+  ]
+}

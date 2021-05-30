@@ -1,0 +1,2 @@
+- CQRS(Command Query Responsiblity Segregation) [martin fowler](https://martinfowler.com/bliki/CQRS.html) 
+- 

@@ -1,0 +1,12 @@
+- to_string()
+- unordered_map<,>
+	- find()
+	- []
+- sort(vector.begin(), vector.end())
+- char to string coversion
+  - string s(1, ch.first)
+- std::unique
+  - removing duplicates from array
+- std::erase
+  - deleting element(s) while traversion
+- 

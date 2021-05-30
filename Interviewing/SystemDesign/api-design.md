@@ -1,0 +1,7 @@
+- Define unit resources in the system. 
+  - Process is kinda like class-diagram
+  - Identify "first class" members of the system
+  - define relations e.g. has a, contains, 
+- Build robust APIs
+  - parameters in path or query variable should be comprehensive []
+  - 
