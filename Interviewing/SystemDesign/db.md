@@ -1,1 +1,8 @@
 - storing custom fields for users[how jira/atlassian does it](https://developer.atlassian.com/server/jira/platform/database-custom-fields/)
+- MySQL is good at read scaling, through creation of read replicas. Write scaling, not so much. Multi write-instances are tricky to get right. 
+  - one option for write scaling could be manually sharding data into different instances at the aplication layer. For ex. based on region use a different db. Downside is complicated logic on application layer for persistence.
+  - spanner provides auto-sharing at the database layer so application is agnostic of it. scales writes as well as reads very well
+- MySQL is good at structured data. 
+  - pretty fast at specific queries. For example storing user object in mysql, it will give back user's email directly while NoSQL we gotta parse the object belongign to user_id and then return that.
+  - when designing for a system, if objects can be modeled as entities with relations between them, just like real world objects go for relational DB
+- NoSQL is prevalent at non-structured data, like logs, . 

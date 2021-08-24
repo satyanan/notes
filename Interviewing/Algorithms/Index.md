@@ -37,6 +37,7 @@ String
 Tree 
 
 -   Inorder traversal - stack -[https://leetcode.com/problems/kth-smallest-element-in-a-bst/discuss/325697/c%2B%2B-stack-solution](https://leetcode.com/problems/kth-smallest-element-in-a-bst/discuss/325697/c%2B%2B-stack-solution)
+-   [segment tree](https://codeforces.com/blog/entry/18051)
     
 Greedy
 -   isSubsequence O(n)

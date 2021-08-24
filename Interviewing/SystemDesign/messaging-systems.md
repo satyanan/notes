@@ -1,0 +1,8 @@
+- messaging systems need real-time delivery of messages. 
+  - http polling will have a lag here, while beign resource heavy of server as well as client.
+  - long lived http connections will have less lag but still resource heavy
+  - web sockets is duplexed persistent connection(client and server both can send data), which can be used for real-time delivery of messages
+- push messaging other use-cases
+  - literally anywhere the client needs to keep getting regular updates, if exists.
+  - [Push messaging at Netflix for refreshing recommendations screen](https://www.youtube.com/watch?v=6w6E_B55p0E)
+- 

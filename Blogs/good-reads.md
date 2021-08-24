@@ -1,2 +1,3 @@
 - [API design: breaking down complexity](https://www.linkedin.com/pulse/api-design-interview-preparation-tai-chia-makris-huang/)
 - [REST API Design Best Practices for Parameter and Query String Usage](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Best-Practices-for-Parameters-and-Query-String-Usage/#)
+- [Consistent hashing: easy explanation](http://tom-e-white.com/2007/11/consistent-hashing.html)

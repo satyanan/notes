@@ -1,0 +1,3 @@
+- inital array/number, target, operation(s)
+  - sometimes simulate reverse from target to inital [example1](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
+  - 

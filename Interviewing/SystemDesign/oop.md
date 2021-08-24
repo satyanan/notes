@@ -1,0 +1,7 @@
+- SOLID 
+  - https://platis.solutions/blog/2020/06/22/how-to-write-solid-cpp/
+  - https://cpp-design-patterns.readthedocs.io/en/latest/principles.html
+- Singleton vs Static class
+- Patterns
+  - decorator https://refactoring.guru/design-patterns/decorator
+  - 

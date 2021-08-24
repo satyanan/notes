@@ -1,0 +1,20 @@
+- is a distributed event streaming platform
+- can do upto trillion events a day
+- each machine in the kafka cluster is called a broker
+- one of the brokers is called the controller(chosen by leader election)
+  - used ephemeral node of zookeeper
+  - any broken on bootstrap tried to write to /controller node in zookeper
+  - the first one succeeds and becomes the controller, others wait
+- each topic can be partitioned
+- partitions are replecated - replicas
+- one of the replicas is the master, others follower
+- write and reads are done only by master
+- can only read what has been replicated to all followers
+- ISRs(in-sync replica) are replicas which are in-sync with master replica for a topic
+  - a follower with at most N messages or T time behind master is called ISR
+- events DO NOT have global order
+  - they are ordered within a partition
+- to get global order
+  - use one partition
+  - set max.in.flight.requests.per.connection to 1
+- 
